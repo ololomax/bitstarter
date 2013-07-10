@@ -8,9 +8,9 @@ app.get('/', function(request, response) {
       if (err) throw err;
       //var buffer = new Buffer(data);
       //response.send(data.toString()));
-      response.send('azaza');
+      //response.send('azaza');
   });
-  //response.send('sasai)))');
+  response.send('sasai)))');
 });
 
 var port = process.env.PORT || 5000;
