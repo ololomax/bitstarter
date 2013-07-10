@@ -7,7 +7,7 @@ app.get('/', function(request, response) {
   fs.readFileSync('index.html', function (err, data) {
       if (err) throw err;
       var buffer = new Buffer(data);
-      response.send(buffer.toString());
+      response.send(data));
   });
   //response.send('sasai)))');
 });
